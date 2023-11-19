@@ -41,14 +41,16 @@ namespace Revit_App
                 
                 //get room boundary
                 var room_op = new SpatialElementBoundaryOptions();
+                
                 var roomboundaty = (room as Room).GetBoundarySegments(room_op);
                 var room_height = room.get_Parameter(BuiltInParameter.ROOM_HEIGHT);
                 var plasterwalls= new List<Wall>();
 
 
-                // creat walls
+                // creat walls and floors 
                 foreach (var ilistOfLines in roomboundaty)
                 {
+                  
                     foreach (var line in ilistOfLines)
                     {
                         plasterwalls.Add(Wall.Create(doc, line.GetCurve()
@@ -59,9 +61,22 @@ namespace Revit_App
                                                             0,
                                                             false,
                                                             false));
+                        
                     }
                 }
-                t.Commit();
+                foreach (var ilistOfLines in roomboundaty)
+                {
+                    
+                    var basewalllevel = plasterwalls[0].LevelId;
+                    var topWallLevel = Level.Create(doc, (plasterwalls[0].get_Parameter(BuiltInParameter.WALL_TOP_EXTENSION_DIST_PARAM).AsDouble()) + wall_height);
+
+                    var roof_type = new FilteredElementCollector(doc).OfClass(typeof(RoofType)).FirstOrDefault(x => x.Name == "plaster").Id;
+                    var roof = Floor.Create(doc, (ilistOfLines) as IList<CurveLoop> , roof_type, topWallLevel.Id);
+                    t.Commit();
+                }
+                
+                //creatong the Roof Plaster from the room boundary
+            
 
             }
 
