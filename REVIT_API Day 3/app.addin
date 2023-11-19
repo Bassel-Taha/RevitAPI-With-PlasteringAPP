@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>Element ID</Name>
+		<FullClassName>REVIT_API_Day_3.DAY3</FullClassName>
+		<Text>HelloWorld</Text>
+		<Description>Show Hello World.</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>REVIT_API Day 3.dll</Assembly>
+		<AddInId>239BD853-36E4-461f-9171-C5ACEDA4E723</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>devolopment</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Application">
+		<Name>revitApp</Name>
+		<FullClassName>REVIT_API_Day_3.External_Application</FullClassName>
+		<Text>making revit app</Text>
+		<Description>making some apps for revit</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>REVIT_API Day 3.dll</Assembly>
+		<AddInId>2B589716-E3B7-4E0C-A997-8C225427420C</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>devolopment</VendorDescription>
+	</AddIn>
+</RevitAddIns>

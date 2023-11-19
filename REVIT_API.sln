@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REVIT_API_Day2", "REVIT_API\REVIT_API_Day2.csproj", "{4D1181D2-1D20-4399-9AB8-995B5E6C5F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REVIT_API_Day3", "REVIT_API Day 3\REVIT_API_Day3.csproj", "{F2BC1BC2-4B89-4162-8448-B8AE2F204AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit_App for Creating Wall Plaster", "Revit_App\Revit_App for Creating Wall Plaster.csproj", "{8F11D21F-2127-4EEF-8427-30691436EDE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D1181D2-1D20-4399-9AB8-995B5E6C5F36}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1181D2-1D20-4399-9AB8-995B5E6C5F36}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{4D1181D2-1D20-4399-9AB8-995B5E6C5F36}.Debug|x64.ActiveCfg = Debug|x64
+		{4D1181D2-1D20-4399-9AB8-995B5E6C5F36}.Debug|x64.Build.0 = Debug|x64
+		{4D1181D2-1D20-4399-9AB8-995B5E6C5F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1181D2-1D20-4399-9AB8-995B5E6C5F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1181D2-1D20-4399-9AB8-995B5E6C5F36}.Release|x64.ActiveCfg = Release|x64
+		{4D1181D2-1D20-4399-9AB8-995B5E6C5F36}.Release|x64.Build.0 = Release|x64
+		{F2BC1BC2-4B89-4162-8448-B8AE2F204AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BC1BC2-4B89-4162-8448-B8AE2F204AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BC1BC2-4B89-4162-8448-B8AE2F204AF2}.Debug|x64.ActiveCfg = Debug|x64
+		{F2BC1BC2-4B89-4162-8448-B8AE2F204AF2}.Debug|x64.Build.0 = Debug|x64
+		{F2BC1BC2-4B89-4162-8448-B8AE2F204AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BC1BC2-4B89-4162-8448-B8AE2F204AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BC1BC2-4B89-4162-8448-B8AE2F204AF2}.Release|x64.ActiveCfg = Release|x64
+		{F2BC1BC2-4B89-4162-8448-B8AE2F204AF2}.Release|x64.Build.0 = Release|x64
+		{8F11D21F-2127-4EEF-8427-30691436EDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F11D21F-2127-4EEF-8427-30691436EDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F11D21F-2127-4EEF-8427-30691436EDE7}.Debug|x64.ActiveCfg = Debug|x64
+		{8F11D21F-2127-4EEF-8427-30691436EDE7}.Debug|x64.Build.0 = Debug|x64
+		{8F11D21F-2127-4EEF-8427-30691436EDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F11D21F-2127-4EEF-8427-30691436EDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F11D21F-2127-4EEF-8427-30691436EDE7}.Release|x64.ActiveCfg = Release|x64
+		{8F11D21F-2127-4EEF-8427-30691436EDE7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {365FE103-726B-45A3-856D-56DCBFD9D4CA}
+	EndGlobalSection
+EndGlobal

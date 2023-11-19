@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<!--<AddIn Type="Command">
+		<Name>conch creating </Name>
+		<FullClassName>Revit_App.conch</FullClassName>
+		<Text>creating conch of walls</Text>
+		<Description>creating conch for walls depending on the rooms</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>Revit_App.dll</Assembly>
+		<AddInId>5051D613-FB74-4C7E-A51F-D72292C89345</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>my Blugin</VendorDescription>
+	</AddIn>-->
+
+	<!--<AddIn Type="Command">
+		<Name>joining walls </Name>
+		<FullClassName>Revit_App.testing</FullClassName>
+		<Text>joining walls</Text>
+		<Description>joining walls and conchwalls</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>Revit_App.dll</Assembly>
+		<AddInId>08E55735-AAD1-4F17-B7EE-AA8E86E627B6</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>my Blugin</VendorDescription>
+	</AddIn>-->
+
+	<AddIn Type="Application">
+		<Name>revit plugin </Name>
+		<FullClassName>Revit_App.Helpful_APP</FullClassName>
+		<Text>my PlugIns</Text>
+		<Description>some command to help in modeling</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>Revit_App.dll</Assembly>
+		<AddInId>8E78DCFD-13ED-40E3-B566-F4694B2C5E3A</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>my Blugin</VendorDescription>
+	</AddIn>
+
+</RevitAddIns>
