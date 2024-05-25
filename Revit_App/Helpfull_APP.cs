@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +16,7 @@ namespace Revit_App
         public Result OnStartup(UIControlledApplication application)
         {
             // creating ribbon tap
-            application.CreateRibbonTab("my plugins" );
+            application.CreateRibbonTab("my Custom Pana;" );
 
             // creating panel for the creating plaster walls
             var plaster = application.CreateRibbonPanel("my plugins", "plaster");

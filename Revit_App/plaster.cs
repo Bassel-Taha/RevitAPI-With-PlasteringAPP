@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -75,7 +75,7 @@ namespace Revit_App
                     t.Commit();
                 }
                 
-                //creatong the Roof Plaster from the room boundary
+                //creating the Roof Plaster from the room boundary
             
 
             }

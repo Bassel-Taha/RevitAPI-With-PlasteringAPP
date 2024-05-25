@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>REVIT_API_Day_3</RootNamespace>
     <AssemblyName>REVIT_API Day 3</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -84,7 +85,7 @@
     <Content Include="level.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Day38_RevitApi\REVIT_API\REVIT_API\REVIT_API_Day2.csproj">
+    <ProjectReference Include="..\REVIT_API\REVIT_API_Day2.csproj">
       <Project>{4d1181d2-1d20-4399-9ab8-995b5e6c5f36}</Project>
       <Name>REVIT_API_Day2</Name>
     </ProjectReference>
