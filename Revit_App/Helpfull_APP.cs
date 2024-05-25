@@ -16,7 +16,7 @@ namespace Revit_App
         public Result OnStartup(UIControlledApplication application)
         {
             // creating ribbon tap
-            application.CreateRibbonTab("my Custom Pana;" );
+            application.CreateRibbonTab("my plugins" );
 
             // creating panel for the creating plaster walls
             var plaster = application.CreateRibbonPanel("my plugins", "plaster");
